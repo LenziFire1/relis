@@ -5,4 +5,77 @@
 body{
     width: 100vw;
     background-color: white;
+
 }
+header{
+    width: 50vw;
+    background-color: white;
+
+}
+
+.container1{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(201, 201, 87);
+    display: flex;
+}
+.con1-1{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(165, 143, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con1-2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(21, 9, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(144, 144, 39);
+    display: flex;
+
+}
+
+.con2-1{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(224, 21, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con2-2{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(149, 21, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 900px;
+    top: 14px;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
