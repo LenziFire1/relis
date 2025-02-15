@@ -8,21 +8,22 @@ body{
 
 }
 header{
-    width: 50vw;
-    background-color: white;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(254, 66, 66);
 
 }
 
 .container1{
     width: 100vw;
-    height: 50vh;
+    height: 406px;
     background-color: rgb(201, 201, 87);
     display: flex;
 }
 .con1-1{
     width: 50%;
     height: 100%;
-    background-color: rgb(165, 143, 227);
+    background-color: rgb(141, 252, 122);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,35 +31,31 @@ header{
 .con1-2{
     width: 50%;
     height: 100%;
-    background-color: rgb(21, 9, 56);
+    background-color: rgb(0, 249, 233);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container2{
-    height: 50vh;
+    height: 500px;
     width: 100vw;
-    background-color: rgb(144, 144, 39);
-    display: flex;
-
-}
-
-.con2-1{
-    width: 33%;
-    height: 100%;
-    background-color: rgb(224, 21, 157);
+    background-color: rgb(153, 0, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-.con2-2{
-    width: 33%;
-    height: 100%;
-    background-color: rgb(149, 21, 166);
+.container3{
+    height: 188px;
+    width: 100vw;
+    background-color: rgb(255, 225, 0);
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+
 ul{
    
     display: flex;
@@ -69,7 +66,7 @@ ul{
     gap: 40px;
 
     position: absolute;
-    width: 400px;
+    width: 300px;
     height: 40px;
     left: 900px;
     top: 14px;
@@ -80,5 +77,6 @@ ul{
 }
 .navigation{
     text-decoration: none;
+
 }
 
